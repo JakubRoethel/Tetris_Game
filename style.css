@@ -40,7 +40,7 @@ h1 {
     text-align: center;
 }
 
-p {
+.control-description {
     max-width: 250px;
     color:white;
     text-align: center;
