@@ -23,3 +23,7 @@ This is a simple version of Tetris Game
 * add()
 * remove()
 * contains()
+
+### Live Link
+
+This site was built using [GitHub Pages] (https://jakubroethel.github.io/Tetris_Game/)
