@@ -24,6 +24,6 @@ This is a simple version of Tetris Game
 * remove()
 * contains()
 
-### Live Link
+### Live Link:
 
-This site was built using [GitHub Pages] (https://jakubroethel.github.io/Tetris_Game/)
+This site was built using GitHub Pages (https://jakubroethel.github.io/Tetris_Game/)

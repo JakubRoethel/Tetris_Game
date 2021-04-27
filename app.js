@@ -13,7 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "purple",
         "green",
         "blue"
-    ]
+    ];
+    const border = "solid black 1px"
+
     // console.log(squares)
       //The Tetrominoes
     const lTetromino = [
