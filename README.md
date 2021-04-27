@@ -4,7 +4,7 @@
 
 This is a simple version of Tetris Game 
 
-# In this game of Tetris I use JavaScript methods like :
+### In this game of Tetris I use JavaScript methods like :
 
 * addEventListener()
 * querySelector()
