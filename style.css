@@ -24,7 +24,7 @@ body {
 
 
 .container{
-    margin: 30px;
+    margin-left: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
