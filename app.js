@@ -137,6 +137,30 @@ document.addEventListener('DOMContentLoaded', () => {
         draw();
     };
 
+    // fix rotation a the edge
+
+    const isAtLeft =  () => {
+        return current.some(i => (currentPosition + i) % width === 0);
+    };
+    const isAtRight = () => {
+        return current.some(i=> (currentPosition + i + 1) % width === 0);
+    };
+    const checkRotatedPosition = (P) => {
+        P = P || currentPosition
+        if ((P+1) % width < 4) {
+          if (isAtRight()){
+            currentPosition += 1
+            checkRotatedPosition(P)
+            }
+        }
+        else if (P % width > 5) {
+          if (isAtLeft()){
+            currentPosition -= 1
+          checkRotatedPosition(P)
+          }
+        }
+      }
+
     //rotate
     const rotate = () => {
         unDraw();
@@ -147,6 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentRotation = 0
         };
         current = theTetrominoes[random][currentRotation];
+        checkRotatedPosition()
         draw();
     };
 
